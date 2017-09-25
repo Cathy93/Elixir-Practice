@@ -85,6 +85,8 @@ defmodule M do
 
       display_list(words)
 
+      IO.puts display_list(list.delete(words, "Random"))
+
     end
     def display_list([word|words]) do
       IO.puts word
